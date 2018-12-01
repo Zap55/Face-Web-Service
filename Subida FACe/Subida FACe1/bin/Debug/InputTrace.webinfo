@@ -1,0 +1,1832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<log>
+  <inputMessage utc="07/09/2018 20:28:17">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx0b16f0dc-daa9-c716-54a8-e89cc9751aef" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx8ca0225f-baa1-65a0-33e3-cc40d476e2ce">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>N8PX3hRK9AqoDs0N4orDVTDQhhA=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfxc37bd55b-0ae8-c0a6-8242-0cfefaa00e21">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>2jf9G0adM5IXBptW0dujATRN+Fs=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>PvSg2IXeSMeiEVZD4/L6aHTGrH8MxIoetnv/D2jR98ZmaJQ/ImNQDUaiqHjc7KrLdOw/oSaJOONgtYIgZS6YzqW7cj41Qlkrc3piH26r15W6AxKU5WMI427vF31Jy6pFkUupa5qnIeCG6/PHnXf2CKWI1jvyxck6T5tBes0XZ1Cw4ze3PWxPcuuZNKdpyHglzM729HnytcwD6Is/wTutfAsh19ZkVCJU7tQZDNUi0eH66UXXP6ujKiiapPUfvtZP66h5dlB1XPMtJUuzX7NOXlfAPuJqzHgAKCdgfSLjROLfxgivoL8UZKy9Csnbxk0Rwr3xlj0j/O/J/T418SjLig==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx0b16f0dc-daa9-c716-54a8-e89cc9751aef" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx8ca0225f-baa1-65a0-33e3-cc40d476e2ce">
+              <wsu:Created>2018-09-07T20:28:15Z</wsu:Created>
+              <wsu:Expires>2018-09-07T21:28:15Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxc37bd55b-0ae8-c0a6-8242-0cfefaa00e21">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92df5fb5d37</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxc37bd55b-0ae8-c0a6-8242-0cfefaa00e21">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92df5fb5d37</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 20:29:38">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx07b4106c-b032-b2ae-1764-afdbb6efe790" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfxec5c1300-686a-0d49-8ef4-a41974daf64c">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>ggZLwuMnobVZrZK0H53dkaHG0k8=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfxe5dae942-0aef-8ce4-5984-d1ba1252fa5c">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>ybHD/HR6xE/AkYXr3usahnt6Yo0=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>DuIabB/aqCoqfuPbnEFglegJ0xykR0uQCht6mJS7Cpi2+pXkFmd3AluVVO8ygi2L2u5oPQWT1olNObWs2wexz2tSD6R+GLFBdkY2M+H0wEhYS0B2IqqWVXxDrCX4yEeq6bSM46GOL4JowjKNSxBPr4yD/zeh4ZUa3Xw1XjpKudr2qmn/LKH9p6IMuKA3Twb89Fu/ExdofvwHiIjXpwnu/4if/T9B/qQPlYFZG68WeKRNrK6RC5tlNfKCqCjD2r5Si0gxD7P478ao0DOTgSPmhJVVHJr7/oeUx94xO4ihvRS5U9w42IEGn2tRf5BvWKStGG4lNHIs9lPDiLnavJlxtg==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx07b4106c-b032-b2ae-1764-afdbb6efe790" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxec5c1300-686a-0d49-8ef4-a41974daf64c">
+              <wsu:Created>2018-09-07T20:29:36Z</wsu:Created>
+              <wsu:Expires>2018-09-07T21:29:36Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxe5dae942-0aef-8ce4-5984-d1ba1252fa5c">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92dfb0d1f18</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxe5dae942-0aef-8ce4-5984-d1ba1252fa5c">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92dfb0d1f18</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 20:31:21">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx7b6411dd-ae54-7c48-7b44-9842004383ff" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx3ed9b517-8ab6-e118-3e46-d840d1bfc130">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>L8GsKmA0q++8ggF1VsyQRKrrLv8=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx3b695003-0b81-e900-8e87-d11b52f4b88c">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>rYGU+g4Sdmmz4BDIRUFxd5CEEK0=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>csG0oIgFtjdzbFTMXKfg0jBGJz8Rup1v7q8aEc2CRxcIQ6AFVu7cdoQnDW8jlBAUTq57l+nwKvb8GYPJ6SalmsDeWj0y2/ODE/frSlb6LPKptsZYg8EoQgPrkcSIzob1mpny7dkOzCPxWG23nF6ire7UYA+fR0cVgmWYqVPZPuMFGd6HV21MKcGNrvYewA1kVi6viQtolEPnKvhgJ+z1Q3YMdGVfRibRK/JQITaoncW6V5YFNnlwViemeQPmUYWrcxSAV1TeM/EoPLVRKJ5m6Vlf0b1ungjhloVNAAaLWCv/Aw4Kn6I1Ra9bp7Oji886euQjVPSpVrIM6VsLNNADug==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx7b6411dd-ae54-7c48-7b44-9842004383ff" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx3ed9b517-8ab6-e118-3e46-d840d1bfc130">
+              <wsu:Created>2018-09-07T20:31:20Z</wsu:Created>
+              <wsu:Expires>2018-09-07T21:31:20Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx3b695003-0b81-e900-8e87-d11b52f4b88c">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e0185d32d</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx3b695003-0b81-e900-8e87-d11b52f4b88c">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e0185d32d</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 20:39:36">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx63d48c1c-9445-4f02-bfbc-31a0fb19e041" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx5302079e-d31d-1d58-ef3b-af7d9a5b24d7">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>rRRuy5A+MqVp+eDqTOpRdIwHils=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfxeadef935-ab70-d2a5-603c-91f132fe8f1c">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>tVDlTM2vX2lOlrg6Xa/Tf4YCq6o=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>N5tgrsNuDTJjZPAZ+5noHH6a+1cKugTiVrw2WfEj6Fhn2qIatf2E4cfzj/gm/+5LpHoQQGaRAnx4ymdQQE5YDWbVpaQ3wZ+5INjy1rU5E/sly9VW+m8spinU7N2UUxLan49eC3In7ORnsZXPwjDGypAi0z0oSvC3rDAHP+fvWsXhQ7Tz4E6t+C6+FVFnlip5NPQPSnGhLNbJ1Lw7ih3cL+9LLhom2REw+NWKY5f/ORhk/G9vY81LqyDa3af07MI9C6IOmWN5utvTJGVONvxeEtxz3/VD96lKnmzxsFCHMy4pIR1g9BgsATsHKL1EsGGGZICj+DikDSeHUHXTJ7CjqQ==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx63d48c1c-9445-4f02-bfbc-31a0fb19e041" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx5302079e-d31d-1d58-ef3b-af7d9a5b24d7">
+              <wsu:Created>2018-09-07T20:39:35Z</wsu:Created>
+              <wsu:Expires>2018-09-07T21:39:35Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxeadef935-ab70-d2a5-603c-91f132fe8f1c">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e2076d4d2</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxeadef935-ab70-d2a5-603c-91f132fe8f1c">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e2076d4d2</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 20:41:53">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfxbf8dfd03-1ee5-6b07-6c4c-4b9c5ece52ce" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">MIIF7TCCBNWgAwIBAgIQKYcLhiZOgQJWqMWzPz+ogzANBgkqhkiG9w0BAQsFADBHMQswCQYDVQQGEwJFUzERMA8GA1UECgwIRk5NVC1SQ00xJTAjBgNVBAsMHEFDIENvbXBvbmVudGVzIEluZm9ybcOhdGljb3MwHhcNMTYwMTI3MTMyNzE1WhcNMTkwMTI3MTMyNzE0WjCB0DELMAkGA1UEBhMCRVMxDzANBgNVBAcMBk1BRFJJRDE8MDoGA1UECgwzTUlOSVNURVJJTyBERSBIQUNJRU5EQSBZIEFETUlOSVNUUkFDSU9ORVMgUMOaQkxJQ0FTMUswSQYDVQQLDEJESVJFQ0NJw5NOIERFIFRFQ05PTE9Hw41BUyBERSBMQSBJTkZPUk1BQ0nDk04gWSBMQVMgQ09NVU5JQ0FDSU9ORVMxEjAQBgNVBAUTCVMyODMzMDAyRTERMA8GA1UEAwwIRFRJQyBBR0UwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCAMqMoKH9QD74kSPHILcUWtkoPF/70IH89X11MpfzLJGpaoQfSTw8S7QWto3XbQfBiHEnECgGRQGdID/U1I8vPHvcZIuQ/PfQPs6VTcy5mF0NiTov5V6eEAGG4xCb8oUeiTGTN9loWmxGCP/zVmKlNReu9Ko3oh2kxnxvIuFwX+P9f3Jpqyfwbn/+YqWfTl/wlsctkMXufhs3uUiwfTCI4jnrBrVxqh0y98/yX6qMLDh1QZ+r6UUaAMv4y82S9Z6IekNoINNDcNUQur27K4nX/w5OCKPwnrWlznW/flltJY9YhjGhHZ2NwmLVc7DqmLP+IuoyMihBGThBzH5P+7YjPAgMBAAGjggJJMIICRTAJBgNVHRMEAjAAMIGBBggrBgEFBQcBAQR1MHMwOwYIKwYBBQUHMAGGL2h0dHA6Ly9vY3NwY29tcC5jZXJ0LmZubXQuZXMvb2NzcC9PY3NwUmVzcG9uZGVyMDQGCCsGAQUFBzAChihodHRwOi8vd3d3LmNlcnQuZm5tdC5lcy9jZXJ0cy9BQ0NPTVAuY3J0MEQGA1UdIAQ9MDswOQYKKwYBBAGsZgMJAjArMCkGCCsGAQUFBwIBFh1odHRwOi8vd3d3LmNlcnQuZm5tdC5lcy9kcGNzLzAmBgNVHREEHzAdpBswGTEXMBUGCSsGAQQBrGYBCAwIRFRJQyBBR0UwEwYDVR0lBAwwCgYIKwYBBQUHAwIwDgYDVR0PAQH/BAQDAgSwMB0GA1UdDgQWBBS72TtbgpbMjNdI4kUkk/sOn1+VRjAfBgNVHSMEGDAWgBQZ+FgvFNamzJsEmAgNTNerAKeDZTCB4AYDVR0fBIHYMIHVMIHSoIHPoIHMhoGebGRhcDovL2xkYXBjb21wLmNlcnQuZm5tdC5lcy9DTj1DUkwxLE9VPUFDJTIwQ29tcG9uZW50ZXMlMjBJbmZvcm1hdGljb3MsTz1GTk1ULVJDTSxDPUVTP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q7YmluYXJ5P2Jhc2U/b2JqZWN0Y2xhc3M9Y1JMRGlzdHJpYnV0aW9uUG9pbnSGKWh0dHA6Ly93d3cuY2VydC5mbm10LmVzL2NybHNjb21wL0NSTDEuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQCLCLprb5KW2ESRSXgiLSmVchGnzdsdpFPcKgyFs+ReiiP4hPT3w8SJi4b9eEjaOi8RN56Okm6BWeuEUPnmFM05A8L9aiPUFKeeHYGqFfRozgUSwLVxgOMTmqEz94y31CTVlDGr8mHZ7e0VljCtI4O2b7jpJ0pUoCHUGLJA2H+mDpFbFEKs0la7q54pvizUrrdpCIdtZZOYcCndlTnL/v0LhnvCirinGTGhj6pE7Ng6YPbvbRcZOIffmp2NyH3flLV1EhJbXeyIkfmt8zaMrYI4roYisMpkI9e4KUyK/JbXUCT2wafQUe5kAmTJI7y+P6RF9HaZhxAb5C4Cp+FXeDon</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx50a05824-4dea-2541-c4fc-fb4db62aaff2">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>G+jIHnHTYRLIEjNAiHmrBq1roM4=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx63f731ea-9b27-9540-d601-1fc00853f2fe">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>UCR/Lz5ekH8LqonrJjIXWcUi3EU=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>fHHg2t3OxTV5RYonR0vrA7kEf+z7XxotfM2tP7DfvPSmKuYETz7mt/FL8EmdE8N9++x2H5LaHm0cWBDBhcunUg5mBV0EMs9z7At11yRCB5B5e8JcNqpPfVNSHLKHlER59ohZzpByK/n5RgX995UHdb62z11bw6+8H3ga6h6KPOYJ2iet5Y2dRyRFsP/nPlIUieZ1S+q0wjsecvlM4RR8VxZwYiIbj/iuMlaxIenFh1d2tYRLvH9VHiTODFwsH+c0QV8Z4ZAGppz2L6VDW14sw+W0YbIN63zlBbC+/4TIQSvM5BIkONhkkjLjP7/z8te/d/Vpo+K73NSMK77AprV6vA==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfxbf8dfd03-1ee5-6b07-6c4c-4b9c5ece52ce" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx50a05824-4dea-2541-c4fc-fb4db62aaff2">
+              <wsu:Created>2018-09-07T20:41:51Z</wsu:Created>
+              <wsu:Expires>2018-09-07T21:41:51Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx63f731ea-9b27-9540-d601-1fc00853f2fe">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e28fd14b6</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx63f731ea-9b27-9540-d601-1fc00853f2fe">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e28fd14b6</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 20:45:07">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx8cf743ae-0646-d25a-b4de-a5728be16a38" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfxd824ac10-1c4c-9815-2e14-4cadda18316f">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>BT0x5RgqbPDkI7mMhYLgW8J3FyU=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx187a64dc-2490-6d78-e94e-ab72068d2652">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>2HEeUnAiopFe/d+16lUglwHVvaw=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>Aqa5J8YvYv0bNt8Ji+yJX8r/1Z00F4KxkCGm0IdlLocDb4aRlIrYD4vVCyaokS7EaJecatA2MV1tVe8kddWU3dCH/ZIppbsppTMvLExgFRq4YDLWLIvU6mxBfMGlj4w8c7mDs9WmfGOISOBQYIxagWFBOf3pzpvoN0wl8QWb+IlV+M5elX6cgZkPiuSebDVe7mwIBTUa6wXUkof+RZ10Pvneba2lLhTh+jY/B6vcWEkve4G0o+AXFOd7ggzdKRk5AfrZJd34K1O7TTKBDTzlQWxA6cPFDvFY9vpiFYW41BnEUj0xyLEh0ca7mc1Gviu4NhMMdXhzKnlnFzCBGau7XQ==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx8cf743ae-0646-d25a-b4de-a5728be16a38" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxd824ac10-1c4c-9815-2e14-4cadda18316f">
+              <wsu:Created>2018-09-07T20:45:06Z</wsu:Created>
+              <wsu:Expires>2018-09-07T21:45:06Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx187a64dc-2490-6d78-e94e-ab72068d2652">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e3527585c</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx187a64dc-2490-6d78-e94e-ab72068d2652">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e3527585c</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 20:51:28">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfxcad7e513-e431-d7fa-4ad4-69d87dd0e25f" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx07aa58b3-0e78-9c41-8c91-c9fdcea3072d">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>YZHmnPr9BMfbobgzhT3dxbYekUg=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx65af5d37-d7fe-c64f-68a3-98014bc47638">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>lqOXidoNx74cM6Sk1t6tTTkX4Yk=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>HRBaj3o60FaOnQt+AeS/8jqzc7hrsP9fM513q6jYqGGuwDuJ0nYZG+7SaOyq/siSS2gbqQeclNLC77srNAwY+uJm9o6hssILSxwuiGj+6HIYNUR3wn5Not/BLLgeYgFnQgrEO9FAfulTxxkT6/ewysi87bKF2CxKWVLHA0UEwwoEvF9llWxj7kGAMiy+E2HAh+XjOf5u+o/DaX4ZUEAkhP6n+8q1Zv7/RAu5Lr6nhF5+1PMJXGcbAyIQuDaI3fBESJ+Rev2/RUbO33A8gJOnttsRfXYRS/CIx3ntVp4k5B5XXjRDEvmH7auLd3gk+oXzj2ohjTnlbh4a+c20ceHrwA==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfxcad7e513-e431-d7fa-4ad4-69d87dd0e25f" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx07aa58b3-0e78-9c41-8c91-c9fdcea3072d">
+              <wsu:Created>2018-09-07T20:51:27Z</wsu:Created>
+              <wsu:Expires>2018-09-07T21:51:27Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx65af5d37-d7fe-c64f-68a3-98014bc47638">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e4cf7cd02</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx65af5d37-d7fe-c64f-68a3-98014bc47638">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e4cf7cd02</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 20:51:53">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx2920a623-4b77-53a2-d2f0-368867a82bbc" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx3340ec00-23bc-e5fa-af06-c07d8c7d656e">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>1tqJlnPgVb9cdRpmzdKMf3ObmT0=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx69cc456f-12b7-65e3-7e3b-0383fcc19b19">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>SNeU1krNSkg39TJe8OLZTFlv4i0=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>JcxMvNrq6/pGAXa+Da+ngcU8MUWIVLLavFZIg7Icg/SX/R2NJSVe80x7tGLxJS8gY3eDGMcMhOQVqHbNjgmKh59Jo/wGjqULx9XpfnR4f7tNjQ32r66VTbkiJ8/MYK1CpVerMGqd9bjAYQFnEOH9HzlpeN4GMibw7wRJjNyDP+HLqNKihLecTjVMdDWk8VDeT9waj/pp9O/qcnIp92jMEqJaWGIES10gAkwNOdvXoZTe/SZ7n9zEmnoY4JRs6MPqn4jBvVI1x6l1N53Xrt7mXsMMJHdtdrK7VN2tfx1IvsJKmQKmKlCKk+Oi0WHMiMyxZi2XiolgnUvTQgxabcAnUw==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx2920a623-4b77-53a2-d2f0-368867a82bbc" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx3340ec00-23bc-e5fa-af06-c07d8c7d656e">
+              <wsu:Created>2018-09-07T20:51:52Z</wsu:Created>
+              <wsu:Expires>2018-09-07T21:51:52Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx69cc456f-12b7-65e3-7e3b-0383fcc19b19">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e4e83012f</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx69cc456f-12b7-65e3-7e3b-0383fcc19b19">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e4e83012f</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 20:52:30">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfxc8b4de7e-ed7c-2781-1efb-58a0b199a82c" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfxeb7bcfc0-5159-8f05-7f31-2c723300bcec">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>HPxdEmZywgY/+XrpNamIB4YB2o8=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx092fc683-447a-1a29-ddd0-59c0132e6418">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>rcgW/yHuRUriq83v7+zGcrKdZLI=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>Mp0awQ3Ufpm/0F9d5NFfZXn3l+ZUErtq2oUce36HnUqoSSwHh9frd5OupoLmYpf5WoIe+djV/IYwE3apr49W6RX+Re61BafMHErv9f1MugjrnRcie9iJUr3jchAEPPyyzaHP1vEjPUlbufu8UO2Ib6BGgGZfOqkA+7R6sJuIXeTE2jlxz9tXH0VF9TSdvELd4H6sxqM79jnwPfOo1v1/0cCZTC1AcsgnrWVN7WIVmKiueom/RXISctYFvEtKtSQC5xA9NkNGz6A/He/0J4sfPD41O2vDTTlq2m7mJ+lcm6/4ILz+3FFjF9+4FKxy0VAyBxBHmrTV4uCOQz8odZz0uA==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfxc8b4de7e-ed7c-2781-1efb-58a0b199a82c" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxeb7bcfc0-5159-8f05-7f31-2c723300bcec">
+              <wsu:Created>2018-09-07T20:52:29Z</wsu:Created>
+              <wsu:Expires>2018-09-07T21:52:29Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx092fc683-447a-1a29-ddd0-59c0132e6418">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e50d23993</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx092fc683-447a-1a29-ddd0-59c0132e6418">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e50d23993</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 20:54:43">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfxa476082b-1ea5-1acb-d6d8-06e3683ebbcc" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfxdbc3d18e-50b4-bd9a-2dcc-784be417d53e">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>XpjjvfFzYKFKvle9JRg1XYK/RNY=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfxa61c548b-0783-b463-12f1-55b702650722">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>WZGkF1deu4byzZSr3Oqwfldbt68=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>cWp9yDUZ2ZIYZ1+OSYvB0j1T9Gc6GM9pKoQ2LxactGfwHNpHrq7drDYdpNMFTUttT5cI7wlI14F9S8yS6/kj6PNDGzXS46cJ951WCmyg8Y+AauHvGbMqBAq5f9Bi5OouIcdEJfoyvsmzKf9DUdQa02RallMQKx+ihm6bbQOxZVS3tYhTaRJfIa0BMbb53FZMwdL1ZdH9gmiZIrs9Z9mjScwMY/AZ7asrCOzEbzm6b5xMmWiEZa1lihpU7Li7hcbx4esPG27Hr8No8Fz8VztgoIAdajBi+Dk/2zZH3Vnm7L4NWzavew4rJd/73OQ6wLGOnIfFo6VN3MIYBGZ1qe9O6A==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfxa476082b-1ea5-1acb-d6d8-06e3683ebbcc" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxdbc3d18e-50b4-bd9a-2dcc-784be417d53e">
+              <wsu:Created>2018-09-07T20:54:42Z</wsu:Created>
+              <wsu:Expires>2018-09-07T21:54:42Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxa61c548b-0783-b463-12f1-55b702650722">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e5925dcf7</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxa61c548b-0783-b463-12f1-55b702650722">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e5925dcf7</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 20:58:26">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfxbd8b360f-af36-61b9-5a23-89b2c13676c9" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx9c9adf8d-895b-3eff-7f63-d94d0f1f5a24">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>8uPHPb2EMZgBfewTniVy32zptX8=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx7d3817ca-10b6-e510-06c0-5781f5b869cf">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>0Y5tJ4VI7UIOtDIloNBoQcwyWFE=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>XsrX38Gt+7qJoVOVw7EZkUcSL2HONx65IvWwRs8o0pwuul26EFHB8uFQpjYgGyjP2K5+IuOpcPyIj5Muc3FgGRENwPh9ePLQdlCkHaVJkS4OO098Kp+XU+8RGljJT8CBxPVeTVE0exiYVY4+v8YNFMM/xEojw9BQ68W7WiwVarQUCo/PhnqoRmLnCjpiyTf1EwfHjR+nA2NzsOLnFq7g1NKJpx0SlGpH2LupVFzRLk54WT6mfb86XSHtTKq/HSo0dkwuFDRZUuCDQ1pYvkM9tKweGqz2lr2lZE7Kh41UD0m+qmXx5FTC//WEvCkGFBZpPULe0eqz1+B0sGbJKEkRAw==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfxbd8b360f-af36-61b9-5a23-89b2c13676c9" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx9c9adf8d-895b-3eff-7f63-d94d0f1f5a24">
+              <wsu:Created>2018-09-07T20:58:25Z</wsu:Created>
+              <wsu:Expires>2018-09-07T21:58:25Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx7d3817ca-10b6-e510-06c0-5781f5b869cf">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e6717dc42</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx7d3817ca-10b6-e510-06c0-5781f5b869cf">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e6717dc42</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 21:04:45">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfxf96aa22d-c3b3-ab38-c21d-01f7f7fba76a" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx99b97f31-106f-4e17-f694-1c5a31c8416e">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>2I7p030mk83pJVV0ndmlK60uvJI=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfxa0dc9c2a-b642-e4cd-8fc1-91c64682f31b">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>jNw4Z4mHO4k/eChrhtZld2dOpzI=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>TzJSut2xiyJEj4KK7RP2wuMuK3N15WCuSAAmgBH7riqhUsmIj+bjV/hGRgR+GnEFClxjAxwWUJY0G+GBe+nrTVUlO8goukFjMiZql051dQwUsdRok4aqIfC1C4PlcsSSJXOYzyjxtaUWxqOfqmTxWfspyExGTKjLXMeLf1j9u/H3XSJapQzDDZS8C70rnS6zqkrFLVgpUFNi/gxpA5Wlo0qEs+HDE42vWqk4H89a7aiYCpGWRDGsxJcPtwh3K7sn2/Umdtwc6RKFzoWEtLZ+KC5rwmqDWZ4W00OU80/ppfi4GKQKeI9A1VYljK9gyaHD6tNJj/r88bI26Jk67AWk+Q==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfxf96aa22d-c3b3-ab38-c21d-01f7f7fba76a" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx99b97f31-106f-4e17-f694-1c5a31c8416e">
+              <wsu:Created>2018-09-07T21:04:44Z</wsu:Created>
+              <wsu:Expires>2018-09-07T22:04:44Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxa0dc9c2a-b642-e4cd-8fc1-91c64682f31b">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e7ecbbf3e</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxa0dc9c2a-b642-e4cd-8fc1-91c64682f31b">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e7ecbbf3e</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 21:05:56">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx6c5fc59e-7f82-c72c-47e3-1771ff2c5170" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx25913a20-d0ad-0e71-7115-46968165541a">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>ynl65Tgo8QBgbr41W5Xa9/CArt8=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfxc0b96070-f439-ca87-8d01-bbb248c67bac">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>kQaJ53mnk0zyt/9YGByDFAmAhHQ=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>EHyEKLXTTa7oJcUwvuy0ujtOiy0NAoXVFXAUyJMbFuvyAM/8FxETN69TrKqWqwp3cPE946RbHYglH7qCG85XspkcqI+iAqar9a74X5rk/lVZWueyrmguMU4WyWoOx7CVdHgwBmg2CrHlCJwSajdcfHO+JlRwUFmLmcGL2F0FQpkXb89Nv3vsUzzhBjFBn6zfAzM8s8KsjixSz8EiHpvQ1CgUUk+7H0g3ji7sMYkZKLfmRqf9qMwClZUqgOfNz8DycOmiu4JthNZywLvej8J9OA0RHIV1LJDNUqUicQRpgmgJ0Nu1pw/gRpto3ONxgtzfulsBB3lLAqGUu0cHa7MgOQ==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx6c5fc59e-7f82-c72c-47e3-1771ff2c5170" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx25913a20-d0ad-0e71-7115-46968165541a">
+              <wsu:Created>2018-09-07T21:05:55Z</wsu:Created>
+              <wsu:Expires>2018-09-07T22:05:55Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxc0b96070-f439-ca87-8d01-bbb248c67bac">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e8331b06f</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxc0b96070-f439-ca87-8d01-bbb248c67bac">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e8331b06f</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 21:09:02">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx4aac0b4c-7672-3467-e718-a996839457a9" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfxb4cb4e70-9a05-71b1-8809-a5cb08624249">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>6Ivp9hi7LyO4QK/aYiDyOfNqoyo=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx0d71171c-13d0-8ae4-88ec-1585f49983ab">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>k4kACqC5wVZi5VSmEZm+67QKrno=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>I/aBCJseAocTnrvYx/oSlo5Qo1JlRxV+ZG3KKU0zX6VIXoKA6eyNPkF5SPKU5q0ksqid7yKcCkiwRRRicm0eWGLjDknO2OlvUJ9/h8cJKI0n7PBaPcFDWpFRoEAP35nIfktWLqkHCup1/lUVz1PTHnfhyca70Z1RKEJh7zo7/6PhiDO7aUoMu3kUXVYfTImHgEnPcaUIxfG4yuVl2rbCfxsveFuVRugdcImD2PrxUxAP1fugIADbkrGCqJZ9DCRr7HVO1koVZVPqrNO7Hum478kn6po1EAem4y99jMw6PXu802jGbgAJexhyITbdUPzIx/EmevNMymCKM3lnz+K6vw==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx4aac0b4c-7672-3467-e718-a996839457a9" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxb4cb4e70-9a05-71b1-8809-a5cb08624249">
+              <wsu:Created>2018-09-07T21:09:01Z</wsu:Created>
+              <wsu:Expires>2018-09-07T22:09:01Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx0d71171c-13d0-8ae4-88ec-1585f49983ab">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>411</codigo>
+                <descripcion>No existe o inactiva la Oficina Contable asociado al código "EXSIS"</descripcion>
+                <codigoSeguimiento>5b92e8ece86c8</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx0d71171c-13d0-8ae4-88ec-1585f49983ab">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>411</codigo>
+                <descripcion>No existe o inactiva la Oficina Contable asociado al código "EXSIS"</descripcion>
+                <codigoSeguimiento>5b92e8ece86c8</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 21:09:03">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx007cf956-9cf1-106a-ddf0-ed928da8c7af" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx49111f55-0d93-a178-0fab-3952198cdbfb">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>JrDNV52R1f8qBkAJDYJoOIK8b/k=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx009d3d39-d55c-8839-beee-977d9415e3f6">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>NJTeg+7Kxcnn79dmLKNNfvum7+Q=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>cniTWw9MxzbSMnqV/ulV9AXYZjwV8/0437SYJL5e3ntChV4NCHOwdURtZ8ioBGcoFBSI9Jnk03CGRr9IHObYVmicp7QOimlmNjTCjCmGTPbIbAMa3D8wqN32496ziMeFLE7kPolZFC6AoJB7ubCDAudbjEyH891b5KQjQF6kHfmiqGptepvT3PM0PDVbj4s/8ZAFsW7xC0QBe5+2Zr311wetnaI3hKcbwMCbWeXcAIOwICQW5lhmqy58EKrVIpN/wjIyaampRSuakTF9j4eGw1rJF7QQp8F11neJKw4a3DafAGEjwLp9W3ffOd5j0DQTreG5ZaD6ZKE4P8FPxPiB9g==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx007cf956-9cf1-106a-ddf0-ed928da8c7af" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx49111f55-0d93-a178-0fab-3952198cdbfb">
+              <wsu:Created>2018-09-07T21:09:02Z</wsu:Created>
+              <wsu:Expires>2018-09-07T22:09:02Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx009d3d39-d55c-8839-beee-977d9415e3f6">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>415</codigo>
+                <descripcion>Ya existe una factura con serie is null, número 235106 y fecha de expedición 20171130, con registro 20170112319475</descripcion>
+                <codigoSeguimiento>5b92e8ee58abb</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx009d3d39-d55c-8839-beee-977d9415e3f6">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>415</codigo>
+                <descripcion>Ya existe una factura con serie is null, número 235106 y fecha de expedición 20171130, con registro 20170112319475</descripcion>
+                <codigoSeguimiento>5b92e8ee58abb</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 21:09:06">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfxb8fe93bd-bd63-591f-0328-f8b5e78992a2" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx53535108-f077-ccf9-8c17-00021051c1c0">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>ftlR3Qh3dJbbTUlyvDMOxHKn9M0=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx60f6be92-d333-29e5-bba5-adb79478e7cf">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>vFzz6dpvmKms0xwEMk5l2LiSC8I=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>EhRQ73+WPSlt9XbFdCGDwNKn9T3JB6teQBwoelcRc1KShW0YEacG6n2FQTBOlKm3+EcvIGVAdWc6dM7H4e4YTt2GK8cLZyC0sq8QeNvAxlkRJnYxSbWCFSnMzssQrlDRttvmRRBAM2m6l7GrNF8cZUmiyQm/VqpcKauKF+NkJnbroD8iKs3kI+GAZ+U5r+ZK1ZgKIbpwP4Z1vsygCs8oGdAS5j3x3rVBso//Oki+u8j96e40NfnSphKj/389qAZFs7coU/XfnDhnYXzgdhhAW6HAwbxalxKHqWCSkRblUvrqxDiokcJOEx7eRKAs+KaJzVkxlbLRhEQbELyIOnlFcg==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfxb8fe93bd-bd63-591f-0328-f8b5e78992a2" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx53535108-f077-ccf9-8c17-00021051c1c0">
+              <wsu:Created>2018-09-07T21:09:05Z</wsu:Created>
+              <wsu:Expires>2018-09-07T22:09:05Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx60f6be92-d333-29e5-bba5-adb79478e7cf">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>415</codigo>
+                <descripcion>Ya existe una factura con serie is null, número 235107 y fecha de expedición 20171130, con registro 20170112319497</descripcion>
+                <codigoSeguimiento>5b92e8f094feb</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx60f6be92-d333-29e5-bba5-adb79478e7cf">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>415</codigo>
+                <descripcion>Ya existe una factura con serie is null, número 235107 y fecha de expedición 20171130, con registro 20170112319497</descripcion>
+                <codigoSeguimiento>5b92e8f094feb</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 21:09:08">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx887aea53-da19-3e38-060d-af2125fa736b" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx8871d113-4021-6780-f433-362795556d74">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>81vwZR2b4iz5l2Baz03/BDnEGhY=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfxcd88fff8-9d26-d0e5-eb88-0251b8bb7dd5">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>U82igRAjsiYKDYkMnFFa/GoUyA4=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>DmE2OUnR9RGHpCDCTmLEXNUQfTrPyIa6EH9shEUL2q3DqcA3+CBhmvKWXPcwFa73AkY9y6U4ytwjG3D2TIZnAiBjieSsaU95WqSnvanIZY9gJUQmPI0IbwQW80zIAwpg+n2YWivFHm1e4PqNZE1lW5fJk3auhxY31EENB+r1/cW6SRk4SuRh6jiUDfPjHwHiMMgvP5XghORPy0tYqVSEnipjhc5uG/TKO4ksOHpXelZfZuBObzObI/+qC6PTfmBFymmg8eQqgBSDwac4gI/zWTMoJmcmW3V2UQZvJs2BbFVTd8RnBvOPTLVH4Xa4gu6bf34ziIy+Ro74VqPMLdWPAA==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx887aea53-da19-3e38-060d-af2125fa736b" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx8871d113-4021-6780-f433-362795556d74">
+              <wsu:Created>2018-09-07T21:09:07Z</wsu:Created>
+              <wsu:Expires>2018-09-07T22:09:07Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxcd88fff8-9d26-d0e5-eb88-0251b8bb7dd5">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>415</codigo>
+                <descripcion>Ya existe una factura con serie is null, número 235125 y fecha de expedición 20171130, con registro 20170112319506</descripcion>
+                <codigoSeguimiento>5b92e8f2da3a4</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxcd88fff8-9d26-d0e5-eb88-0251b8bb7dd5">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>415</codigo>
+                <descripcion>Ya existe una factura con serie is null, número 235125 y fecha de expedición 20171130, con registro 20170112319506</descripcion>
+                <codigoSeguimiento>5b92e8f2da3a4</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 21:09:09">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfxe816ad99-d1ba-6d87-7c21-11345b154ad5" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx8877a268-92f0-bdbf-0a94-006e689bc96c">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>YmLT0QcFK2SKaACv9cCwDcpf9Ew=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx2b1a9e50-bc4e-ebc3-d2b0-3bead018ea81">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>GoXbPPd7i19P9Qex3a1KgfYbssI=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>KfA6ohYZfCSpMPs7Ziw/ENqXLOcKXb98YcizkbmSJDKhZipT96jWWfhBa6v8rzc/UJN5CRvbgyXcKcGbMWFuEXYc8fmv9iAsHL+SIPimdaI7bzXng2HSnrImJ9vsBlSCz/etV091RgYwZXblykWjUopKYCOYSSCZzba14weHtSyzmbMDZn2QwCmk9D//GkhVQTE/Lagb3b5qGFT/JiCqckDMFjOLwMCVghOCn5sf3zCTqBZC0LqlPZKjTOivqvhSvmGFIK3HoplpoRyJZE8WU/Bb6ufdhA3mwSw/K65RVecdfGV58di3sVp4FU5oMa4tDJoepsEDizQiQr2WdxbnYA==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfxe816ad99-d1ba-6d87-7c21-11345b154ad5" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx8877a268-92f0-bdbf-0a94-006e689bc96c">
+              <wsu:Created>2018-09-07T21:09:08Z</wsu:Created>
+              <wsu:Expires>2018-09-07T22:09:08Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx2b1a9e50-bc4e-ebc3-d2b0-3bead018ea81">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>415</codigo>
+                <descripcion>Ya existe una factura con serie is null, número 235164 y fecha de expedición 20171130, con registro 20170112319521</descripcion>
+                <codigoSeguimiento>5b92e8f458936</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx2b1a9e50-bc4e-ebc3-d2b0-3bead018ea81">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>415</codigo>
+                <descripcion>Ya existe una factura con serie is null, número 235164 y fecha de expedición 20171130, con registro 20170112319521</descripcion>
+                <codigoSeguimiento>5b92e8f458936</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="07/09/2018 21:09:11">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfxdf4110e9-dd3b-6c75-dbac-266169bc80aa" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx3a43e4a5-6515-1613-3c2b-bb5d85518e81">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>m6d0vvjl79U2V6x9TgLSlJtbr+o=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx1f5fc5c2-0b2a-1daa-6d69-772044cb7798">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>Ondh0/U10WMWal4PRt5q1ZjXwdE=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>Yu5HP6wS3NIa+IP/LKeGNl2ujEkzktgcv5H/eXa5ysU2tx+h+xBwd7J7oRtuAbHEojCNlYqBFLA0+/jF3gtKUUVxAaskBOPTNUEDLIgO3+HkwsJCqvPq+YA7z0eknA8TkQZTyMLFksvxSkVe/xRmGYj4iLpw0Ao5MzCIrvJw1Z6uz0rPCRKmv7/011GAfACynGNAYNdtxs1b1BY89+IYt/YRjHpWOlb0aU6aMoLpuYsledo9PW5h8j0eWEkGDlopVbkakW3pm7OhQLOvV97lJ7f8KfgQI/Iiz37ng5ItII4BBJ00v8KZyMSMT7nPiwb3o/GCUNLJUOsAZFNmIdkWrg==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfxdf4110e9-dd3b-6c75-dbac-266169bc80aa" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx3a43e4a5-6515-1613-3c2b-bb5d85518e81">
+              <wsu:Created>2018-09-07T21:09:10Z</wsu:Created>
+              <wsu:Expires>2018-09-07T22:09:10Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx1f5fc5c2-0b2a-1daa-6d69-772044cb7798">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e8f656b17</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx1f5fc5c2-0b2a-1daa-6d69-772044cb7798">
+          <ns1:enviarFacturaResponse>
+            <return>
+              <resultado>
+                <codigo>408</codigo>
+                <descripcion>El formato de la factura es incorrecto</descripcion>
+                <codigoSeguimiento>5b92e8f656b17</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="15/11/2018 19:48:13">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx9e9dced6-75a6-4704-33ed-f436e4b675f2" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx62001ce4-cf84-d939-7b70-49bcc41c4e80">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>OOa1eh5QrQt0IdAXE2RmoXTjxmc=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfxa1a5ecdb-3fa2-226b-88e6-15b7428073cc">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>k3/r1PlOqlRNK6FlO6z9ckyDmKU=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>gByGtr/xnxKGb8+1wOI+GN3EkX+eHnO8yReRApX8ngdumYRcCQp8Fx0IWTvvAH04eb0NpJSy+rZerM0yXzykjqR2+xbcaJw5/dalevvLbFwQSNE+6MiG2yyHWCRNKdH9acq01yQhNaubl4H3Wktt+I5QBf+wdorreqJkgAQaGhGME7LPVmblI732Jb9Wnhudfcrc+4ewyC9hmPblHPHaUg4DIq6zImX56IUsVaVzBcn2RgR8e6+9Rm4Z7Z2f3VB+J6e6FLNhWEFdA7WneOgn7WeCY3epoVzX0PtfXWXmBuaih2mw47CeB5ngma3cRYdnhLjXbwPctzhtlhKR5Y/7xg==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx9e9dced6-75a6-4704-33ed-f436e4b675f2" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx62001ce4-cf84-d939-7b70-49bcc41c4e80">
+              <wsu:Created>2018-11-15T19:48:13Z</wsu:Created>
+              <wsu:Expires>2018-11-15T20:48:13Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxa1a5ecdb-3fa2-226b-88e6-15b7428073cc">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd7c6b16f</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxa1a5ecdb-3fa2-226b-88e6-15b7428073cc">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd7c6b16f</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="15/11/2018 19:48:14">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx20722dc0-8736-58d6-26c8-9dbe7e576001" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx43f6c3ba-4de0-8049-0b6b-55fb03a343a6">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>SDnGqKbgIX6JWqkS8BygqI+5W7M=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx8870ca9c-4591-b3e8-cc79-d4523dfdc977">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>uhbsvMsopWEz2sJ8tHHlzApyTT8=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>D0xHvMLayCmqjgmdYMUCcsdZ2qF1q6QaxGEI3ptnRXOI7d+4kA2mUKPF+28D2n2yrv8Orcz5vwygDNie2Zmow9RAIcG6D0b4sm33uGOBdgXyKYWMhv9w8Jtgh5DUvgNijXWJQrROHekUnNv7KdYGeMB44uu3b1p8DifPNP78oMjOmd1K2xyT0M83Ho3B0T9E4vth2QfMgxfQ6KrinROLusLP1mKRDygzBNNdJ9tWIxdQ1Qcwxpl6lnYGpUFomuFXGbbOPei802rxlAJ7HMDEssc+cAHS+gVRpz8gRdcGnhwLXhgP9Ct4BmG7lhrgh8JaymHiowG6cr23jN58SO0dpQ==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx20722dc0-8736-58d6-26c8-9dbe7e576001" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx43f6c3ba-4de0-8049-0b6b-55fb03a343a6">
+              <wsu:Created>2018-11-15T19:48:14Z</wsu:Created>
+              <wsu:Expires>2018-11-15T20:48:14Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx8870ca9c-4591-b3e8-cc79-d4523dfdc977">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd7e14322</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx8870ca9c-4591-b3e8-cc79-d4523dfdc977">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd7e14322</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="15/11/2018 19:48:15">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx5a997f0e-ff4e-448f-ebb9-98ab30d54742" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfxa06b51a3-8ab7-51b6-c7cb-a6d78e2a0367">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>teNrzx/AA/Xlxl8Uo7oqKIMQdAk=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfx93aea6ce-43d5-0a4b-18d6-0c751e01fb48">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>HbNfuzK2AL+MIriZ6G87pY0YXKs=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>dFLKweGhgVY8LdOirGfd51GRxuhzJBZ2q1B+XOIPBCDpgpewJTEuRdE9Ctq6V/V9M434/lPsMiV8tji9IaqO0k25gVdUCsQ2W9/bra2+WTKWeHkqg6WOxoU1UOlhgMijp0qir/XPHDtKYSt6AfMcEyo2t33teB1Aluz+EOGPiPwmsBbC7nYULWkW1sOz7rmq6qeVLcwoJPQBC8MFDw1wzoGZDJw1pE+n6224WiGbK8yhtF6/fvQ2+Y3skM6dEj9nuQsxY6qj3/Ii/7sq3FME11cOznA5yJO67anp2kG91+8L7Gf+NMb9FP7/QuyMbEYiNCNqGMKLeO2deotyrbzVPA==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx5a997f0e-ff4e-448f-ebb9-98ab30d54742" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxa06b51a3-8ab7-51b6-c7cb-a6d78e2a0367">
+              <wsu:Created>2018-11-15T19:48:15Z</wsu:Created>
+              <wsu:Expires>2018-11-15T20:48:15Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx93aea6ce-43d5-0a4b-18d6-0c751e01fb48">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd7f1d593</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx93aea6ce-43d5-0a4b-18d6-0c751e01fb48">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd7f1d593</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="15/11/2018 19:48:17">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx13fbda4b-6bed-cb38-5457-c713bac12873" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx285e9ce5-2f6b-8637-c6de-24fe0b66dde2">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>fl+OWXmlzGKB/8/Z0SF3vrreWKQ=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfxffca7019-e3cc-b606-70ce-b9f6987e58fd">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>aoVKjI+jKkxIDNll6gh/X4DiOzo=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>HBVv2sFhvHhuUi3+/Nl8+eY56ZjXtGupFDY+IQZpvBP6Go9E871oY4AIp/0b5wRLdUzNBMBOVkvo5NE0Ea/jW2KdCWmbw6vsaDm3E7M5rQVMOx6vwR60gBlYoTx3yEdmSu2h7AlAoUvSKs3uhPbpJo/0N7OnLfSvhsrN0eECMkkZSK9EjiMEvL4PwnxfVAUx4N8lRIXQ6GblvRvbqHh5CbdEbpoJQwmJklJmd8Q99mlw3v0PBMjSAl6R5KMyfajsxZwp9xoTbT+tofZ4rwPLyay3OpzL5kajuFPAyqieTyKA9r4hHSbqIT+V5YuQeV6DR5hd4GCaTzcOjnflW05siQ==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfx13fbda4b-6bed-cb38-5457-c713bac12873" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx285e9ce5-2f6b-8637-c6de-24fe0b66dde2">
+              <wsu:Created>2018-11-15T19:48:16Z</wsu:Created>
+              <wsu:Expires>2018-11-15T20:48:16Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxffca7019-e3cc-b606-70ce-b9f6987e58fd">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd804acff</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxffca7019-e3cc-b606-70ce-b9f6987e58fd">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd804acff</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="15/11/2018 19:48:18">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfxae7d2af9-a07d-008d-15c7-8ce9304a670a" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">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</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+              <ds:SignedInfo>
+                <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+                <ds:Reference URI="#pfx93a53d89-c754-ce42-acc2-9c06947e802f">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>c4kQ/lEtkLQZOWo5Bv5TXNdIyqQ=</ds:DigestValue>
+                </ds:Reference>
+                <ds:Reference URI="#pfxee5c7cba-8a8f-c944-5a2d-12a4c4a51d61">
+                  <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+                  </ds:Transforms>
+                  <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                  <ds:DigestValue>X66neBWPn1hkGo8nkkPX/HEwmBc=</ds:DigestValue>
+                </ds:Reference>
+              </ds:SignedInfo>
+              <ds:SignatureValue>bbd8NfF2xcnWtkcJa7h+cCQ7xV4+UlfIzmgdb4RCtVi+h4hnlQKvy4Ye0Gc8/F465+otwTEHwUQlBjdbMuhG4rLA91QsfgNeXQ0rnlZcyRdY9nqgXBK0BR31icoSkcl2PGPkYiYTDzsa2UfHf5R263l6C12D3deZuKaMHXxIOg5Wl4yzmAxjYJVcEtONbcjowNcjz//Zh9njllbVl8iFMDI3FwqPrwUVxuaVx1fcEIc0RaBTZplCsVf+BxqzlhW4RfFkFK4nInmDkX+81Ofn6x53JU7UjMANmNB3HbM0jC+iAjl+Etz3uk61hWX0aF3oCP/qVkjHWWiaem1OTS4tBg==</ds:SignatureValue>
+              <ds:KeyInfo>
+                <wsse:SecurityTokenReference>
+                  <wsse:Reference URI="#pfxae7d2af9-a07d-008d-15c7-8ce9304a670a" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" />
+                </wsse:SecurityTokenReference>
+              </ds:KeyInfo>
+            </ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx93a53d89-c754-ce42-acc2-9c06947e802f">
+              <wsu:Created>2018-11-15T19:48:18Z</wsu:Created>
+              <wsu:Expires>2018-11-15T20:48:18Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxee5c7cba-8a8f-c944-5a2d-12a4c4a51d61">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd8163f47</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxee5c7cba-8a8f-c944-5a2d-12a4c4a51d61">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd8163f47</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+  <inputMessage utc="15/11/2018 19:48:19">
+    <processingStep description="Unprocessed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header>
+          <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" SOAP-ENV:mustUnderstand="1">
+            <wsse:BinarySecurityToken xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" wsu:Id="pfx9f54153e-8c10-f56c-41b4-242b38d5f312" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3">MIIF7TCCBNWgAwIBAgIQKYcLhiZOgQJWqMWzPz+ogzANBgkqhkiG9w0BAQsFADBHMQswCQYDVQQGEwJFUzERMA8GA1UECgwIRk5NVC1SQ00xJTAjBgNVBAsMHEFDIENvbXBvbmVudGVzIEluZm9ybcOhdGljb3MwHhcNMTYwMTI3MTMyNzE1WhcNMTkwMTI3MTMyNzE0WjCB0DELMAkGA1UEBhMCRVMxDzANBgNVBAcMBk1BRFJJRDE8MDoGA1UECgwzTUlOSVNURVJJTyBERSBIQUNJRU5EQSBZIEFETUlOSVNUUkFDSU9ORVMgUMOaQkxJQ0FTMUswSQYDVQQLDEJESVJFQ0NJw5NOIERFIFRFQ05PTE9Hw41BUyBERSBMQSBJTkZPUk1BQ0nDk04gWSBMQVMgQ09NVU5JQ0FDSU9ORVMxEjAQBgNVBAUTCVMyODMzMDAyRTERMA8GA1UEAwwIRFRJQyBBR0UwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCAMqMoKH9QD74kSPHILcUWtkoPF/70IH89X11MpfzLJGpaoQfSTw8S7QWto3XbQfBiHEnECgGRQGdID/U1I8vPHvcZIuQ/PfQPs6VTcy5mF0NiTov5V6eEAGG4xCb8oUeiTGTN9loWmxGCP/zVmKlNReu9Ko3oh2kxnxvIuFwX+P9f3Jpqyfwbn/+YqWfTl/wlsctkMXufhs3uUiwfTCI4jnrBrVxqh0y98/yX6qMLDh1QZ+r6UUaAMv4y82S9Z6IekNoINNDcNUQur27K4nX/w5OCKPwnrWlznW/flltJY9YhjGhHZ2NwmLVc7DqmLP+IuoyMihBGThBzH5P+7YjPAgMBAAGjggJJMIICRTAJBgNVHRMEAjAAMIGBBggrBgEFBQcBAQR1MHMwOwYIKwYBBQUHMAGGL2h0dHA6Ly9vY3NwY29tcC5jZXJ0LmZubXQuZXMvb2NzcC9PY3NwUmVzcG9uZGVyMDQGCCsGAQUFBzAChihodHRwOi8vd3d3LmNlcnQuZm5tdC5lcy9jZXJ0cy9BQ0NPTVAuY3J0MEQGA1UdIAQ9MDswOQYKKwYBBAGsZgMJAjArMCkGCCsGAQUFBwIBFh1odHRwOi8vd3d3LmNlcnQuZm5tdC5lcy9kcGNzLzAmBgNVHREEHzAdpBswGTEXMBUGCSsGAQQBrGYBCAwIRFRJQyBBR0UwEwYDVR0lBAwwCgYIKwYBBQUHAwIwDgYDVR0PAQH/BAQDAgSwMB0GA1UdDgQWBBS72TtbgpbMjNdI4kUkk/sOn1+VRjAfBgNVHSMEGDAWgBQZ+FgvFNamzJsEmAgNTNerAKeDZTCB4AYDVR0fBIHYMIHVMIHSoIHPoIHMhoGebGRhcDovL2xkYXBjb21wLmNlcnQuZm5tdC5lcy9DTj1DUkwxLE9VPUFDJTIwQ29tcG9uZW50ZXMlMjBJbmZvcm1hdGljb3MsTz1GTk1ULVJDTSxDPUVTP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q7YmluYXJ5P2Jhc2U/b2JqZWN0Y2xhc3M9Y1JMRGlzdHJpYnV0aW9uUG9pbnSGKWh0dHA6Ly93d3cuY2VydC5mbm10LmVzL2NybHNjb21wL0NSTDEuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQCLCLprb5KW2ESRSXgiLSmVchGnzdsdpFPcKgyFs+ReiiP4hPT3w8SJi4b9eEjaOi8RN56Okm6BWeuEUPnmFM05A8L9aiPUFKeeHYGqFfRozgUSwLVxgOMTmqEz94y31CTVlDGr8mHZ7e0VljCtI4O2b7jpJ0pUoCHUGLJA2H+mDpFbFEKs0la7q54pvizUrrdpCIdtZZOYcCndlTnL/v0LhnvCirinGTGhj6pE7Ng6YPbvbRcZOIffmp2NyH3flLV1EhJbXeyIkfmt8zaMrYI4roYisMpkI9e4KUyK/JbXUCT2wafQUe5kAmTJI7y+P6RF9HaZhxAb5C4Cp+FXeDon</wsse:BinarySecurityToken>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+  <ds:Reference URI="#pfx544608ed-3844-72dd-74b5-fd5271aced67"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>RVZaYmJZ9Vdc4RUGZRcf+xbw2tE=</ds:DigestValue></ds:Reference><ds:Reference URI="#pfxd8ebb867-c238-9eb0-539d-715a5fa0fd3b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><ds:DigestValue>D6TCLTzzXHWQEDPAuGl34Np+OzQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>I/aZYavN+5NxG2vhLlVji4ydpva32OjlAvqERAkaigOVy02NBy2dRIMhjG8EEzZbTcMPJigiXZk+ac+frQWNHB3v/+YrcvfQQBZGkgTCLC3dfh18T/JwEP4Yb+qOtr0ngAoKGwAmcAyt/3wibIdxVsRqdCDl3slZpcXERfpvTs0QT/d/xfbyFLyAYkMu7zSM2BK4rwh4N0eeYJdGGQ1wU+Vau51a/PMW9H7wR0BA4dmrzjdVC0lciM6Tkqfy7F5F7nFT7H7i42KlclCzM0UjpGV7I4yFZXwx3RTwAUpYZxywnzYEgDOVv1V3AHKFdOFDv9iprBOSUzYvq+LmE8FLGA==</ds:SignatureValue>
+<ds:KeyInfo><wsse:SecurityTokenReference><wsse:Reference URI="#pfx9f54153e-8c10-f56c-41b4-242b38d5f312" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" /></wsse:SecurityTokenReference></ds:KeyInfo></ds:Signature>
+            <wsu:Timestamp xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfx544608ed-3844-72dd-74b5-fd5271aced67">
+              <wsu:Created>2018-11-15T19:48:19Z</wsu:Created>
+              <wsu:Expires>2018-11-15T20:48:19Z</wsu:Expires>
+            </wsu:Timestamp>
+          </wsse:Security>
+        </SOAP-ENV:Header>
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxd8ebb867-c238-9eb0-539d-715a5fa0fd3b">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd8295682</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Entering SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Exited SOAP filter Microsoft.Web.Services3.Security.Wse2PipelinePolicy+LegacyFilterWrapper" />
+    <processingStep description="Processed message">
+      <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="https://webservice.face.gob.es" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+        <SOAP-ENV:Header />
+        <SOAP-ENV:Body xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" wsu:Id="pfxd8ebb867-c238-9eb0-539d-715a5fa0fd3b">
+          <ns1:enviarFacturaResponse>
+            <return xsi:type="ns1:EnviarFacturaResponse">
+              <resultado xsi:type="ns1:Resultado">
+                <codigo xsi:type="xsd:string">100</codigo>
+                <descripcion xsi:type="xsd:string">La firma de la petición SOAP no es válida</descripcion>
+                <codigoSeguimiento xsi:type="xsd:string">5bedcd8295682</codigoSeguimiento>
+              </resultado>
+              <factura xsi:nil="true" />
+            </return>
+          </ns1:enviarFacturaResponse>
+        </SOAP-ENV:Body>
+      </SOAP-ENV:Envelope>
+    </processingStep>
+  </inputMessage>
+</log>

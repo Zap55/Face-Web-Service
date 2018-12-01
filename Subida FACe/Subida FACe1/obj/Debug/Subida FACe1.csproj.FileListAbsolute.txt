@@ -1,0 +1,26 @@
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\bin\Debug\Subida FACe1.exe.config
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\bin\Debug\Subida FACe1.exe
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\bin\Debug\Subida FACe1.pdb
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\bin\Debug\Microsoft.Web.Services3.dll
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.csprojAssemblyReference.cache
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida_FACe1.Form1.resources
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida_FACe1.Properties.Resources.resources
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.csproj.GenerateResource.cache
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.csproj.CoreCompileInputs.cache
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.csproj.CopyComplete
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.exe
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.pdb
+C:\Users\pcpalazon\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida_FACe1.Progreso.resources
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.csprojAssemblyReference.cache
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida_FACe1.Form1.resources
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida_FACe1.Progreso.resources
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida_FACe1.Properties.Resources.resources
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.csproj.GenerateResource.cache
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.exe
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.pdb
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\bin\Debug\Subida FACe1.exe.config
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\bin\Debug\Subida FACe1.exe
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\bin\Debug\Subida FACe1.pdb
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\bin\Debug\Microsoft.Web.Services3.dll
+C:\Users\Pedro\source\repos\Subida FACe1\Subida FACe1\obj\Debug\Subida FACe1.csproj.CopyComplete

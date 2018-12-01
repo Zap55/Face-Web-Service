@@ -1,0 +1,13 @@
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\bin\Debug\Microsoft.Web.Services3.dll
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\obj\Debug\Subida FACe.csprojAssemblyReference.cache
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\obj\Debug\Subida_FACe1.Form1.resources
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\obj\Debug\Subida_FACe1.Progreso.resources
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\obj\Debug\Subida FACe.csproj.GenerateResource.cache
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\obj\Debug\Subida FACe.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\obj\Debug\Subida FACe.csproj.CopyComplete
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\bin\Debug\Subida FACe.exe.config
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\bin\Debug\Subida FACe.exe
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\bin\Debug\Subida FACe.pdb
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\obj\Debug\Subida_FACe.Properties.Resources.resources
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\obj\Debug\Subida FACe.exe
+C:\Users\Pedro\source\repos\Subida FACe\Subida FACe1\obj\Debug\Subida FACe.pdb
