@@ -1,5 +1,5 @@
 # Face Web Service C#
-Aplicación C# con Visual Studio 2018 para conectar con Servicio Web de Face para FacturaE
+Aplicación C# con Visual Studio 2017 para conectar con Servicio Web de Face para FacturaE
 
 Necesitamos certificado en .pfx y FacturaE .xsig
 
